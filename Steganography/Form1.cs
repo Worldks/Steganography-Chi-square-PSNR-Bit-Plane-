@@ -19,6 +19,9 @@ namespace Steganography
         //Открывает проводник для выбора файла с заданным расширением       ВЫВОД ИНФОРМАЦИЮ О ФАЙЛЕ(КОНТЕЙНЕРЕ)
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            textBoxEmbeddedMessage.Text = "Строки с возможным вложенным сообщением по методу Хи-квадрат";
+
+
             // диалог для выбора файла
             OpenFileDialog ofd = new OpenFileDialog();
             // фильтр форматов файлов
