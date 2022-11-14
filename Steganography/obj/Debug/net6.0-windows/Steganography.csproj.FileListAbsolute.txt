@@ -17,3 +17,22 @@ C:\Projects_on_C#\Steganography\Steganography\obj\Debug\net6.0-windows\Steganogr
 C:\Projects_on_C#\Steganography\Steganography\obj\Debug\net6.0-windows\ref\Steganography.dll
 C:\Projects_on_C#\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.Properties.Resources.resources
 C:\Projects_on_C#\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.Form2.resources
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\bin\Debug\net6.0-windows\Steganography.exe
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\bin\Debug\net6.0-windows\Steganography.deps.json
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\bin\Debug\net6.0-windows\Steganography.runtimeconfig.json
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\bin\Debug\net6.0-windows\Steganography.dll
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\bin\Debug\net6.0-windows\Steganography.pdb
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.csproj.AssemblyReference.cache
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.Form1.resources
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.Form2.resources
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.Properties.Resources.resources
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.csproj.GenerateResource.cache
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.AssemblyInfoInputs.cache
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.AssemblyInfo.cs
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.dll
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\refint\Steganography.dll
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.pdb
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.genruntimeconfig.cache
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\ref\Steganography.dll

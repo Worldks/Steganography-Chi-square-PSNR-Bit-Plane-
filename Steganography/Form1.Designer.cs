@@ -36,6 +36,9 @@
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.convertToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allChannelsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.attackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.chisquareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pSNRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.labelOfChannels = new System.Windows.Forms.Label();
             this.labelOfBitPlanes = new System.Windows.Forms.Label();
             this.comBoxOfBitPlanes = new System.Windows.Forms.ComboBox();
@@ -44,6 +47,7 @@
             this.allChannelsPicture = new System.Windows.Forms.Label();
             this.allChannelsButton = new System.Windows.Forms.Button();
             this.imageInformationLabel = new System.Windows.Forms.Label();
+            this.textBoxEmbeddedMessage = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -51,9 +55,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Location = new System.Drawing.Point(54, 84);
             this.pictureBox1.MaximumSize = new System.Drawing.Size(560, 1080);
@@ -67,9 +69,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox2.Location = new System.Drawing.Point(616, 84);
             this.pictureBox2.MaximumSize = new System.Drawing.Size(560, 1080);
@@ -86,7 +86,8 @@
             this.menuStrip1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
+            this.fileToolStripMenuItem,
+            this.attackToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1081, 28);
@@ -135,6 +136,28 @@
             this.allChannelsToolStripMenuItem.Size = new System.Drawing.Size(264, 26);
             this.allChannelsToolStripMenuItem.Text = "\"Собранный\" вид";
             this.allChannelsToolStripMenuItem.Click += new System.EventHandler(this.allChannelsToolStripMenuItem_Click);
+            // 
+            // attackToolStripMenuItem
+            // 
+            this.attackToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.chisquareToolStripMenuItem,
+            this.pSNRToolStripMenuItem});
+            this.attackToolStripMenuItem.Name = "attackToolStripMenuItem";
+            this.attackToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
+            this.attackToolStripMenuItem.Text = "Attack";
+            // 
+            // chisquareToolStripMenuItem
+            // 
+            this.chisquareToolStripMenuItem.Name = "chisquareToolStripMenuItem";
+            this.chisquareToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.chisquareToolStripMenuItem.Text = "Chi-square";
+            this.chisquareToolStripMenuItem.Click += new System.EventHandler(this.chisquareToolStripMenuItem_Click);
+            // 
+            // pSNRToolStripMenuItem
+            // 
+            this.pSNRToolStripMenuItem.Name = "pSNRToolStripMenuItem";
+            this.pSNRToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.pSNRToolStripMenuItem.Text = "PSNR";
             // 
             // labelOfChannels
             // 
@@ -234,11 +257,22 @@
             this.imageInformationLabel.TabIndex = 12;
             this.imageInformationLabel.Text = "Информация об изображении";
             // 
+            // textBoxEmbeddedMessage
+            // 
+            this.textBoxEmbeddedMessage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxEmbeddedMessage.Location = new System.Drawing.Point(460, 104);
+            this.textBoxEmbeddedMessage.Multiline = true;
+            this.textBoxEmbeddedMessage.Name = "textBoxEmbeddedMessage";
+            this.textBoxEmbeddedMessage.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxEmbeddedMessage.Size = new System.Drawing.Size(150, 353);
+            this.textBoxEmbeddedMessage.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1081, 668);
+            this.Controls.Add(this.textBoxEmbeddedMessage);
             this.Controls.Add(this.imageInformationLabel);
             this.Controls.Add(this.allChannelsButton);
             this.Controls.Add(this.allChannelsPicture);
@@ -281,5 +315,9 @@
         private ToolStripMenuItem convertToolStripMenuItem;
         private ToolStripMenuItem allChannelsToolStripMenuItem;
         private Label imageInformationLabel;
+        private ToolStripMenuItem attackToolStripMenuItem;
+        private ToolStripMenuItem chisquareToolStripMenuItem;
+        private ToolStripMenuItem pSNRToolStripMenuItem;
+        private TextBox textBoxEmbeddedMessage;
     }
 }
