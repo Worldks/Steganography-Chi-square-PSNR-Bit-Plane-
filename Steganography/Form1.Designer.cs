@@ -156,7 +156,7 @@
             // pSNRToolStripMenuItem
             // 
             this.pSNRToolStripMenuItem.Name = "pSNRToolStripMenuItem";
-            this.pSNRToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.pSNRToolStripMenuItem.Size = new System.Drawing.Size(163, 26);
             this.pSNRToolStripMenuItem.Text = "PSNR";
             this.pSNRToolStripMenuItem.Click += new System.EventHandler(this.pSNRToolStripMenuItem_Click);
             // 

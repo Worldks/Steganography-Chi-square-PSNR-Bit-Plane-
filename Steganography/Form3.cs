@@ -87,6 +87,8 @@ namespace Steganography
 
         private void button3_Click(object sender, EventArgs e)
         {
+            label1.Text = "Значение PSNR : ";
+
             Bitmap input = new Bitmap(pictureBox1.Image);
             Bitmap input2 = new Bitmap(pictureBox2.Image);
             double mse = 0;
@@ -121,7 +123,7 @@ namespace Steganography
             mse = mse / 3;
             // double psnr = 20 * Math.Log10(16777215 / Math.Sqrt(mse));
             double psnr = 10 * Math.Log10(Math.Pow(255, 2) / mse);
-            label1.Text = psnr.ToString();
+            label1.Text = label1.Text + " " + psnr.ToString();
         }
 
     }
