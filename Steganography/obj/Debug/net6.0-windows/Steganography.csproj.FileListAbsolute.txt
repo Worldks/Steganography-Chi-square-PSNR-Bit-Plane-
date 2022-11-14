@@ -36,3 +36,4 @@ C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Deb
 C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.pdb
 C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.genruntimeconfig.cache
 C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\ref\Steganography.dll
+C:\Users\Vladimir\Downloads\Telegram Desktop\Steganography\Steganography\obj\Debug\net6.0-windows\Steganography.Form3.resources

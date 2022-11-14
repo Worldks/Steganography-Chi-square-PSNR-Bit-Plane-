@@ -660,5 +660,10 @@ namespace Steganography
             return strokaMessage;
         }
 
+        private void pSNRToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 psnr = new Form3();
+            psnr.Show();
+        }
     }
 }

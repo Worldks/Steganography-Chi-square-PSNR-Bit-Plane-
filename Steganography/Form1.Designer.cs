@@ -149,7 +149,7 @@
             // chisquareToolStripMenuItem
             // 
             this.chisquareToolStripMenuItem.Name = "chisquareToolStripMenuItem";
-            this.chisquareToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.chisquareToolStripMenuItem.Size = new System.Drawing.Size(163, 26);
             this.chisquareToolStripMenuItem.Text = "Chi-square";
             this.chisquareToolStripMenuItem.Click += new System.EventHandler(this.chisquareToolStripMenuItem_Click);
             // 
@@ -158,6 +158,7 @@
             this.pSNRToolStripMenuItem.Name = "pSNRToolStripMenuItem";
             this.pSNRToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.pSNRToolStripMenuItem.Text = "PSNR";
+            this.pSNRToolStripMenuItem.Click += new System.EventHandler(this.pSNRToolStripMenuItem_Click);
             // 
             // labelOfChannels
             // 
@@ -266,6 +267,7 @@
             this.textBoxEmbeddedMessage.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxEmbeddedMessage.Size = new System.Drawing.Size(150, 353);
             this.textBoxEmbeddedMessage.TabIndex = 13;
+            this.textBoxEmbeddedMessage.Text = "Строки с возможным вложенным сообщением по методу Хи-квадрат";
             // 
             // Form1
             // 
